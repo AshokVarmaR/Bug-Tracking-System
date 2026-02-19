@@ -17,10 +17,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class BugController {
 
-	/*
-	 * these methods are for bug controller
-	 */
-	
+
     private final BugService bugService;
     
     @GetMapping
